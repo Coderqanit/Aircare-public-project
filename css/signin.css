@@ -1,0 +1,83 @@
+#cut {
+  background-color: #ded9eb;
+  margin: 0;
+  max-height: 100%;
+  width: 40%;
+  padding: 0px 0px 100% 0px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+#cut .logo {
+  margin: 50px 0 0 60px;
+}
+
+#cut .frame {
+  margin: 30% 0% 0% 20%;
+}
+
+#right {
+  background-color: whitesmoke;
+  max-width: 60%;
+  margin: 0% 0% 0 40%;
+  height: 100%;
+  padding: 0px 0px 100% 0px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+#right .all {
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+#right .login {
+  padding: 4px 0 0 35%;
+  font-size: 20px;
+}
+
+span {
+  color: blue;
+}
+
+#right .welc h2 {
+  padding: 0 0 0px 0px;
+}
+
+#right .welc p {
+  font-weight: bold;
+  padding: 0 0 25px 0px;
+}
+
+#right .form label {
+  font-size: large;
+}
+
+#right .form form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#right .form input {
+  height: 35px;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 0 0 0 10px;
+}
+
+#right .form button {
+  /* margin: 0px 0 20px 8px;
+      padding: 0 84% 10px 10px;
+      border-radius: 4px;*/
+  background-color: #525ffd;
+  font-size: larger;
+  text-align: center;
+  display: block;
+  height: 35px;
+  width: 100%;
+  margin: 10px 0 3px 0;
+  border-radius: 12px;
+}

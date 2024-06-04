@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignIn</title>
+    <link rel="stylesheet" href="css/signin.css" />
+
+    <script>
+      const confirmAction = () => {
+        const response = confirm("Are you sure you want to register with us?");
+
+        if (response) {
+          alert("You agree!");
+        } else {
+          alert("You do not agree have a nice day!");
+        }
+      };
+    </script>
+  </head>
+  <body>
+    <section id="cut">
+      <div class="right">
+        <div class="logo">
+          <img src="../_back/channel-picture/Logo.png" alt="" />
+        </div>
+      </div>
+
+      <div class="left">
+        <div class="frame">
+          <img src="../_back/channel-picture/main-frame.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="right">
+      <div class="all">
+        <div class="login">
+          <p>
+            Are you new to Aircare?
+            <span><a href="SignUp.html">Sign Up</a></span>
+          </p>
+        </div>
+        <div class="welc">
+          <h2>Welcome to Aircare</h2>
+          <p>Log In for Aircare</p>
+        </div>
+
+        <div class="form">
+          <form action="">
+            <label for="">Email Address:</label>
+            <input type="text" placeholder="Enter Your Email Address" />
+
+            <br />
+            <label for="">Password:</label>
+
+            <input type="text" placeholder="Enter your Password" />
+            <br />
+
+            <button onclick="confirmAction()">Log In</button>
+            <p>
+              Forgot Password?<span
+                ><a href="forgotpassword.html"> Click Here</a></span
+              >
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

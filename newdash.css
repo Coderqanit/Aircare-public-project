@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    
+}
+
+#left{
+    background-color: yellow;
+    width: 50vw;
+    height: 100vh;
+    position: relative;
+}
+
+.cls{
+    font-size: 30px;
+    color: red;
+}
+
+.main-dash button{
+    background-color: blue;
+    width: 80%;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    margin: 20px 20px;
+    position: relative;
+    padding: 0 5px;
+}
+
+#dash-svg{
+    color:red;
+}
+li{
+    list-style-type: none;
+    padding-bottom: 30px;
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+
+a{
+text-decoration: none;
+font-size: 2rem;
+
+}
+a:hover{
+    background-color: lightblue;
+}
+
+.chat img{
+    margin: 10% 0 0 10px;
+    width: 90%;
+    height: 90%;
+}
+
+#header{
+    background-color: aqua;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+}
+.dash-word{
+    display: none;
+}
+#dash-logo{
+    color: green;
+    font-size: 2rem;
+    margin: 10px 10px;
+}
+
+.search{
+    display: flex;
+    border: 1px solid gray;
+    width: 50%;
+    height: 40%;
+    margin: 10px 10px;
+    
+}
+#s-icon{
+    margin: 10px 0 0 0;
+}
+
+.img-cont {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0 0 3rem;
+    display: flex;
+    position: relative;
+  
+}
+#img-it{
+    width: 50px;
+    height: 40px;
+    margin: 10px 0 0 0;
+    border-radius: 50%;
+}
+
+#input-file{
+    margin: 10px 0 0 0;
+    padding: 0;
+    position: absolute;
+    opacity: -1;
+}
+
+#section3{
+    background-color: yellow;
+    
+}
+
+.container-wel{
+    width: 200px;
+    height: 100px;
+    display: flex;
+}
+
+.wel-img img{
+    width: 30px;
+    height: 30px;
+}

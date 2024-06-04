@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Space Grotesk Regular'), local('SpaceGrotesk-Regular'), url('SpaceGrotesk-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Space Grotesk Bold'), local('SpaceGrotesk-Bold'), url('SpaceGrotesk-Bold.woff2') format('woff2');
+}
+
